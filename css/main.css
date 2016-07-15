@@ -24,17 +24,34 @@ div#background-img {
 }
 
 img {
-	height: 90%;
-	width: 50%;
-}
+	height: 75%;
+	width: 40%;
+	/*margin-top: -190px;*/
 
-button#input_field {
-	width: 200px;
 
 }
+
+div#calc-portion {
+
+
+	
+	
+
+
+}
+
+div.form-control {
+	background-color: transparent;
+	border: white 2px solid;
+	color: white;
+}
+
+
+
 
 button.btn.btn-primary {
 	background-color: transparent;
 	border: white 2px solid;
+	
 
 }
