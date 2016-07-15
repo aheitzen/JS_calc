@@ -23,6 +23,11 @@ div#background-img {
     align-items: center;
 }
 
+img {
+	height: 90%;
+	width: 50%;
+}
+
 button#input_field {
 	width: 200px;
 
