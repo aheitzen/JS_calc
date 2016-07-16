@@ -28,6 +28,37 @@ img {
 	width: 45%;
 }
 
+button {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	
+
+	
+
+
+}
+
+
+
+img#pull_down_button {
+	height: 80px;
+	width: 100px;
+	padding: 0;
+
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
 
 
 div#calc-portion {
