@@ -18,12 +18,14 @@ div#fullpage {
 	background-attachment: fixed; 
 	background-size: cover;
 	background-color: black; 
-	height: 100%;
-	width: 100%;
 	display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+
+
 
 
 
@@ -39,14 +41,19 @@ button {
 	background-color: transparent;
 	border: none;
 	outline: none;
-}
+	
 
+}
 
 
 img#pull_down_button {
 	height: 80px;
 	width: 100px;
-	padding: 0;
+	
+
+
+	
+	
 }
 
 
