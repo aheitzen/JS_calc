@@ -9,13 +9,15 @@ body {
 	width: 100%;
 }
 
-div#background-img {
+div#fullpage {
+	height: 100%;
+	width: 100%;
 	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(http://bit.ly/29IUbBN);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed; /*viewport does not move when content's height is bigger than img height*/
+	background-attachment: fixed; 
 	background-size: cover;
-	background-color: black; /*color when loading image*/
+	background-color: black; 
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -23,20 +25,20 @@ div#background-img {
     align-items: center;
 }
 
+
+
 img {
 	height: 75%;
 	width: 45%;
+	display: flex;
+   margin: 0 auto;
+    
 }
 
 button {
 	background-color: transparent;
 	border: none;
 	outline: none;
-	
-
-	
-
-
 }
 
 
@@ -45,10 +47,6 @@ img#pull_down_button {
 	height: 80px;
 	width: 100px;
 	padding: 0;
-
-	
-
-	
 }
 
 
@@ -60,28 +58,21 @@ img#pull_down_button {
 
 
 
-
-div#calc-portion {
-
-
-	
-	
+/*JS CODE FOR CALC*/
 
 
-}
-
-div.form-control {
+/*div.form-control {
 	background-color: transparent;
 	border: white 2px solid;
 	color: white;
-}
+}*/
 
 
 
 
-button.btn.btn-primary {
+/*button.btn.btn-primary {
 	background-color: transparent;
 	border: white 2px solid;
 	
 
-}
+}*/
