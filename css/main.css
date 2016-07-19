@@ -25,6 +25,7 @@ div#fullpage {
     align-items: center;
 }
 
+
 p {
 	color: white;
 	text-align: center;
@@ -33,10 +34,13 @@ p {
 }
 
 img {
-	height: 75%;
-	width: 45%;
+	max-height: 75%;
+	max-width: 45%;
 	display: flex;
    	margin: 0 auto;
+
+
+
 }
 
 img#pull_down_button {
