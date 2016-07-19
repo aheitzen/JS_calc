@@ -1,3 +1,5 @@
+/*CSS CODE FOR LANDING PAGE*/
+
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
 html {
 	height: 100%;
@@ -5,7 +7,6 @@ html {
 }
 
 body {
-	
 	height: 100%;
 	width: 100%;
 }
@@ -31,43 +32,22 @@ p {
 	font-family: 'Alegreya Sans', sans-serif;
 }
 
-
-
-
-
 img {
 	height: 75%;
 	width: 45%;
 	display: flex;
    	margin: 0 auto;
-    
 }
-
-button {
-	background-color: transparent;
-	border: none;
-	outline: none;
-	
-
-}
-
 
 img#pull_down_button {
 	height: 80px;
 	width: 100px;
-	
 	text-align: center;
-	vertical-align: middle;
 }
 
-
-
-
-
-
-
-
-
+img#pull_down_button:hover {
+	cursor: pointer;
+}
 
 /*CSS CODE FOR CALC*/
 
@@ -79,26 +59,24 @@ img#pull_down_button {
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-size: cover;
-	background-color: black; 
 	display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 
 div.form-control {
 	background-color: transparent;
 	border: white 2px solid;
 	color: white;
+	height: 100%;
+	width: 96%;
 }
 
-
-
-
-button.btn.btn-primary {
+span.btn.btn-primary {
 	background-color: transparent;
 	border: white 2px solid;
-	
-
+	height: 70px;
+	width: 70px;
+	margin: 10px;
+	outline: none;
 }
