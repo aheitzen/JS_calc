@@ -64,12 +64,31 @@ img#pull_down_button:hover {
     align-items: center;
 }
 
+
+input.form-control {
+	background-color: transparent;
+	border: white 2px solid;
+	color: white;
+	height: 100%;
+	width: 97%;
+	padding: 10px;
+}
+
 div.form-control {
 	background-color: transparent;
 	border: white 2px solid;
 	color: white;
 	height: 100%;
-	width: 96%;
+	width: 50%;
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 15px;
+	margin: 0 auto;
+	margin-top: 20px;
+	cursor: pointer;
+
+
+
 }
 
 span.btn.btn-primary {
