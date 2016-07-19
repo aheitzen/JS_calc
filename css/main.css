@@ -25,7 +25,6 @@ div#fullpage {
     align-items: center;
 }
 
-
 p {
 	color: white;
 	text-align: center;
@@ -38,9 +37,6 @@ img {
 	max-width: 45%;
 	display: flex;
    	margin: 0 auto;
-
-
-
 }
 
 img#pull_down_button {
@@ -90,9 +86,6 @@ div.form-control {
 	margin: 0 auto;
 	margin-top: 20px;
 	cursor: pointer;
-
-
-
 }
 
 span.btn.btn-primary {
@@ -103,3 +96,10 @@ span.btn.btn-primary {
 	margin: 10px;
 	outline: none;
 }
+
+span.btn.btn-primary:active {
+	background-color: transparent; 
+  	border-color: transparent;
+}
+
+
