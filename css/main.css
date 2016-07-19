@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:100);
 html {
 	height: 100%;
 	width: 100%;
@@ -23,7 +24,12 @@ div#fullpage {
     align-items: center;
 }
 
-
+p {
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
 
 
 
@@ -66,6 +72,21 @@ img#pull_down_button {
 
 
 /*CSS CODE FOR CALC*/
+
+#second_screen {
+	height: 100%;
+	width: 100%;
+	background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(http://bit.ly/29IV6SX);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: black; 
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 div.form-control {
