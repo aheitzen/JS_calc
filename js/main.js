@@ -9,7 +9,7 @@
 // });
 
 $(document).ready(function (){
-            $("#button1").click(function (){
+            $("#pull_down_button").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#calc-portion").offset().top
                 }, 1000);

@@ -39,7 +39,7 @@ img {
 	height: 75%;
 	width: 45%;
 	display: flex;
-   margin: 0 auto;
+   	margin: 0 auto;
     
 }
 
@@ -56,10 +56,8 @@ img#pull_down_button {
 	height: 80px;
 	width: 100px;
 	
-
-
-	
-	
+	text-align: center;
+	vertical-align: middle;
 }
 
 
