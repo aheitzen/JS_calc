@@ -107,6 +107,11 @@ span.btn.btn-primary:active {
    		height: inherit;
     	min-width: 100%
     }
+
+    img#pull_down_button {
+    	height: inherit;
+    	min-width: 20%;
+    }
 }
 
 
