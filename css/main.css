@@ -102,4 +102,11 @@ span.btn.btn-primary:active {
   	border-color: transparent;
 }
 
+@media screen and (max-width: 666px) {
+    img {
+   		height: inherit;
+    	min-width: 100%
+    }
+}
+
 
